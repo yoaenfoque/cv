@@ -81,11 +81,11 @@
 		</section>
 		<section id="masEstudios">
 			<h3>Agregar estudios</h3>
-			<form>
+			<form id="agregar" action="">
 				<p>
 					<label for="anio"><strong>Año</strong></label>
 					
-					<select name="anio">
+					<select name="anio" required>
 						<option value="2019">2019</option>
 						<option value="2018">2018</option>
 						<option value="2017">2017</option>
@@ -102,7 +102,7 @@
 				<p>
 					<label for="lugar"><strong>Lugar</strong></label>
 					
-					<textarea name="lugar" id="" cols="30" rows="2"></textarea>
+					<textarea name="lugar" id="" cols="30" rows="2" required></textarea>
 				</p>
 				<p>
 					<input type="submit" value="Enviar">
